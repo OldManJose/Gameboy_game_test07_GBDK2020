@@ -1,0 +1,82 @@
+ASxxxx Assembler V02.00 + NoICE + SDCC mods  (GameBoy Z80-like CPU), page 1.
+Hexadecimal [24-Bits]
+
+Symbol Table
+
+    .__.$$$.                                                    =  002710 L
+    .__.ABS.                                                    =  000000 G
+    .__.CPU.                                                    =  000000 L
+    .__.H$L.                                                    =  000000 L
+    _LCDC_REG                                                      ****** GX
+  2 _Main_sprites                                                  000000 GR
+    _SCX_REG                                                       ****** GX
+    _SCY_REG                                                       ****** GX
+  7 __xinit__Main_sprites                                          000000 R
+  7 __xinit__animation_tiles                                       000BF1 R
+  7 __xinit__animation_tiles2                                      000BF3 R
+  7 __xinit__counterR                                              000BF6 R
+  7 __xinit__from                                                  000BF8 R
+  7 __xinit__offset                                                000BF5 R
+  7 __xinit__onAnim                                                000BF0 R
+  7 __xinit__shot                                                  000BF7 R
+  7 __xinit__speedR                                                000BF9 R
+  7 __xinit__town_001_map                                          0009B0 R
+  7 __xinit__town_001_t                                            000500 R
+  1 _alive                                                         00000B GR
+  1 _animation_counter                                             000001 GR
+  2 _animation_tiles                                               000BF1 GR
+  2 _animation_tiles2                                              000BF3 GR
+  1 _arrowS                                                        000005 GR
+  2 _counterR                                                      000BF6 GR
+  1 _eHealth                                                       00000A GR
+  1 _ePosX                                                         000006 GR
+  1 _ePosY                                                         000007 GR
+  0 _enemyAttack                                                   0002EC GR
+  0 _enemyHealhState                                               000250 GR
+  1 _faceing                                                       00000C GR
+  1 _frame_count                                                   000002 GR
+  2 _from                                                          000BF8 GR
+  1 _ii                                                            000009 GR
+  1 _joy                                                           000008 GR
+    _joypad                                                        ****** GX
+  0 _main                                                          000395 GR
+  0 _makecollision                                                 000059 GR
+  2 _offset                                                        000BF5 GR
+  2 _onAnim                                                        000BF0 GR
+  1 _pPosX                                                         000003 GR
+  1 _pPosY                                                         000004 GR
+  0 _performtDelay                                                 000380 GR
+    _set_bkg_data                                                  ****** GX
+    _set_bkg_submap                                                ****** GX
+    _set_sprite_data                                               ****** GX
+    _shadow_OAM                                                    ****** GX
+  0 _shootArrow                                                    000142 GR
+  2 _shot                                                          000BF7 GR
+  2 _speedR                                                        000BF9 GR
+  1 _tile_anim_count                                               000000 GR
+  2 _town_001_map                                                  0009B0 GR
+  2 _town_001_t                                                    000500 GR
+  0 _updateAnim                                                    000000 GR
+    _wait_vbl_done                                                 ****** GX
+ASxxxx Assembler V02.00 + NoICE + SDCC mods  (GameBoy Z80-like CPU), page 2.
+Hexadecimal [24-Bits]
+
+Symbol Table
+
+
+
+ASxxxx Assembler V02.00 + NoICE + SDCC mods  (GameBoy Z80-like CPU), page 3.
+Hexadecimal [24-Bits]
+
+Area Table
+
+   0 _CODE                                      size    596   flags    0
+   1 _DATA                                      size      D   flags    0
+   2 _INITIALIZED                               size    BFE   flags    0
+   3 _DABS                                      size      0   flags    8
+   4 _HOME                                      size      0   flags    0
+   5 _GSINIT                                    size      0   flags    0
+   6 _GSFINAL                                   size      0   flags    0
+   7 _INITIALIZER                               size    BFE   flags    0
+   8 _CABS                                      size      0   flags    8
+
